@@ -114,6 +114,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  animation: change 50s infinite ease-in;
 }
 
 nav {
@@ -903,5 +904,51 @@ nav {
 
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@keyframes change{
+  0%
+  {
+    background-image: url(main_bg.jpg);
+  }
+  10%
+  {
+    background-image: url(poorimage1.jpg);
+  }
+  20%
+  {
+    background-image: url(poor3.jpg);
+  }
+  30%
+  {
+    background-image: url(poor2.jpg);
+  }
+  40%
+  {
+    background-image: url(poor4.avif);
+  }
+  50%
+  {
+    background-image: url(poor5.jpg);
+  }
+  60%
+  {
+    background-image: url(poor6.jpg);
+  }
+  70%
+  {
+    background-image: url(poor7.avif);
+  }
+  80%
+  {
+    background-image: url(poor8.jpg);
+  }
+  90%
+  {
+    background-image: url(poor9.jpg);
+  }
+  100%
+  {
+    background-image: url(poor11.webp);
   }
 }
