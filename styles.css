@@ -114,7 +114,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  animation: change 50s infinite ease-in;
+  animation: change 50s infinite ease-in-out;
 }
 
 nav {
